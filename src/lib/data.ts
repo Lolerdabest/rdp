@@ -1,4 +1,4 @@
-import { Users, Shield, Vote, Lightbulb, Banknote, Palette, Landmark, BookOpen, Scale, Building } from "lucide-react";
+import { Users, Shield, Vote, Lightbulb, Banknote, Palette, Landmark, BookOpen, Scale, Building, Home } from "lucide-react";
 
 export type Policy = {
   id: string;
@@ -125,6 +125,12 @@ export const policies: Policy[] = [
     icon: Vote,
   },
   {
+    id: "no-punitive-action-on-inactivity-evictions",
+    title: "No Punitive Action on Inactivity Evictions",
+    content: "We are extremely worried by WPRs plan to take punitive actions on players who have become inactive. They plan to issue fines to players who get evicted multiple times, and cut the money players get when their evicted plot is up for auction by half.\nOften players get inactive for a number of reasons, some of which are real life personal issues. You shouldn’t get punished just because you couldn’t play this month. These are punitive actions that would cost players hundreds of thousands of dollars each.\nImagine this: You bought a plot after a lot of saving and work. It costs you about 50k. You’ve built a house, made some chestshop, life is good. Then for some personal reason you can’t reach the 6 hour playtime requirement for some reason. Sure extensions could help but you can’t extend the eviction report",
+    icon: Home,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
@@ -155,3 +161,5 @@ export const policies: Policy[] = [
     icon: Palette,
   }
 ];
+
+    
