@@ -4,48 +4,48 @@
 
 @layer base {
   :root {
-    --background: 193 67% 92%;
+    --background: 210 40% 98%;
     --foreground: 215 28% 17%;
-    --card: 0 0% 100%;
+    --card: 210 40% 100%;
     --card-foreground: 215 28% 17%;
-    --popover: 0 0% 100%;
+    --popover: 210 40% 100%;
     --popover-foreground: 215 28% 17%;
-    --primary: 47 100% 70%;
-    --primary-foreground: 47 100% 10%;
-    --secondary: 193 50% 85%;
-    --secondary-foreground: 215 28% 17%;
-    --muted: 193 50% 88%;
-    --muted-foreground: 215 25% 45%;
-    --accent: 33 100% 63%;
-    --accent-foreground: 33 100% 10%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 47 98% 51%;
+    --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 193 50% 85%;
-    --input: 193 50% 88%;
-    --ring: 33 100% 63%;
-    --radius: 0.5rem;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217 91% 60%;
+    --radius: 0.75rem;
   }
 
   .dark {
     --background: 215 28% 17%;
-    --foreground: 193 67% 92%;
+    --foreground: 210 40% 98%;
     --card: 215 28% 17%;
-    --card-foreground: 193 67% 92%;
+    --card-foreground: 210 40% 98%;
     --popover: 215 28% 17%;
-    --popover-foreground: 193 67% 92%;
-    --primary: 47 100% 70%;
-    --primary-foreground: 47 100% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
     --secondary: 215 28% 25%;
-    --secondary-foreground: 193 67% 92%;
+    --secondary-foreground: 210 40% 98%;
     --muted: 215 28% 25%;
-    --muted-foreground: 193 50% 88%;
-    --accent: 33 100% 63%;
-    --accent-foreground: 33 100% 10%;
+    --muted-foreground: 210 40% 92%;
+    --accent: 47 98% 51%;
+    --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 210 40% 98%;
     --border: 215 28% 25%;
     --input: 215 28% 25%;
-    --ring: 33 100% 63%;
+    --ring: 217 91% 60%;
   }
 }
 
@@ -55,5 +55,23 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }

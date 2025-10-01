@@ -1,6 +1,6 @@
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
-import { DollarSign, Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -9,28 +9,28 @@ import {
 } from "@/components/ui/sheet";
 
 const navLinks = [
-  { href: "#policies", label: "Policies" },
+  { href: "#policies", label: "Our Platform" },
+  { href: "#get-involved", label: "Get Involved" },
 ];
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm shadow-sm">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Logo />
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium transition-colors text-foreground/80 hover:text-foreground"
+              className="transition-colors text-foreground/60 hover:text-foreground/80"
             >
               {link.label}
             </a>
           ))}
-          <Button asChild style={{ backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))' }} className="hover:bg-accent/90">
-            <a href="https://example.com/donate" target="_blank" rel="noopener noreferrer">
-              <DollarSign className="w-4 h-4 mr-2" />
-              Donate
+          <Button asChild>
+            <a href="https://discord.gg" target="_blank" rel="noopener noreferrer">
+              Join our Discord
             </a>
           </Button>
         </nav>
@@ -58,10 +58,9 @@ export function Header() {
                     {link.label}
                   </a>
                 ))}
-                 <Button asChild size="lg" style={{ backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))' }} className="hover:bg-accent/90 mt-4">
-                    <a href="https://example.com/donate" target="_blank" rel="noopener noreferrer">
-                        <DollarSign className="w-4 h-4 mr-2" />
-                        Donate
+                 <Button asChild size="lg" className="mt-4">
+                    <a href="https://discord.gg" target="_blank" rel="noopener noreferrer">
+                        Join our Discord
                     </a>
                 </Button>
               </div>

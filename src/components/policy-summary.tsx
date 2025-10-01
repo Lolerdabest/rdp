@@ -29,7 +29,7 @@ export function PolicySummary({ policyText }: { policyText: string }) {
 
   return (
     <div className="space-y-4">
-      <Button onClick={handleSummarize} disabled={isLoading} style={{ backgroundColor: 'hsl(var(--accent))', color: 'hsl(var(--accent-foreground))' }} className="hover:bg-accent/90">
+      <Button onClick={handleSummarize} disabled={isLoading} variant="outline">
         {isLoading ? (
           <>
             <LoadingSpinner className="mr-2 h-4 w-4" />
@@ -51,7 +51,7 @@ export function PolicySummary({ policyText }: { policyText: string }) {
       )}
 
       {summary && (
-        <Card className="bg-primary/10 border-primary/20">
+        <Card className="bg-primary/5 border-primary/20">
           <CardHeader>
             <CardTitle className="flex items-center gap-2 font-headline text-lg">
               <Wand2 className="h-5 w-5 text-primary" />
