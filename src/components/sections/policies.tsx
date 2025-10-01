@@ -14,10 +14,10 @@ export function Policies() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Our Platform for Progress
+            Redmont Beach Party Platform
           </h2>
           <p className="mt-4 font-body text-lg text-muted-foreground">
-            Clear positions on the issues that matter most to our server community.
+            September 2025
           </p>
         </div>
 
