@@ -74,6 +74,21 @@ export const policies: Policy[] = [
     icon: Landmark,
   },
   {
+    id: "accounting-reform",
+    title: "Accounting",
+    content: `
+      <div>
+        <h4 class="font-bold text-md mb-2">i. A Rework of the Rules</h4>
+        <p class="mb-4">DOC has had the ability to set accounting regulations for months now. They haven’t been using this power for so long that they forgot they had this. In the meantime it is extremely unclear for companies and especially banks what rules need to be followed.<br/>The Beach Party wants to use the IFRS accounting rules as a base and override provisions where necessary. These are real life tried and tested rules for both big and small companies. An added advantage is that there is already a lot of precedent, software and tutorials on this rules package, making it easier to use.</p>
+        <h4 class="font-bold text-md mb-2">ii. A Complete Overhaul of the Jobs</h4>
+        <p class="mb-4">The accountancy job is completely unused. We want to make this into a qualification such as the legal qualification. We also want to tighten up the exam, that way if you see someone with an accountant's license you can be sure they know what they are doing.</p>
+        <h4 class="font-bold text-md mb-2">iii. Independent Auditors</h4>
+        <p>The recent Vanguard collapse has taught us that DOC can’t fully audit every bank every time. It simply does not have the manpower. We therefore want to propose independent auditors. These are accountants that have gotten an extra qualification from the DOC and have to adhere to strict independency requirements. They will audit the books of certain companies and banks.</p>
+      </div>
+    `,
+    icon: BookOpen,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
