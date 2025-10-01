@@ -131,6 +131,42 @@ export const policies: Policy[] = [
     icon: Home,
   },
   {
+    id: "plot-prices",
+    title: "Plot Prices",
+    content: "We’ll continue to monitor plot prices and see if there is a need to adjust the measures we added last term. The Plot Regulations Act wasn’t a one and done but a continuing effort to fix the plot crisis.",
+    icon: Home,
+  },
+  {
+    id: "creation-of-small-plots",
+    title: "Creation of Small Plots",
+    content: "Often the high cost of a big plot is prohibitive for players. It takes a lot of work to come up with the cash. That is why we support creating smaller plots who will obviously be costing less. That way newer and poorer players can have a smaller plot to start out with. It makes it possible for them to put their stuff and it can help the player get in a better financial position through chestshops.",
+    icon: Home,
+  },
+  {
+    id: "convert-fairgrounds-to-plots",
+    title: "Convert the Fairgrounds into Plots",
+    content: "The fairgrounds have been unused since the beginning of time. Let’s convert this space to plots to sell to players. The DPA is much better served with the event world where they can do what they want without the nuisance of other players.",
+    icon: Home,
+  },
+  {
+    id: "clarified-degrees-of-culpability",
+    title: "Clarified Degrees of Culpability",
+    content: "In order to have consistency and clarity in the law, we seek to codify definitions for the four degrees of culpability, including purposely, knowingly, recklessly, and negligently.",
+    icon: Scale,
+  },
+  {
+    id: "licensed-security-companies",
+    title: "Licensed Security Companies",
+    content: "It is one of the constants in DC life. If you do an event you make sure to hire security personnel to fight off the many murderers coming to kill the event attendants. One of the problems security companies face are the many murder charges for their self defense actions as the plugin can’t always differentiate between murder and self defense.\nThis is why we’re proposing a licensing system for security companies where the security guards won’t be charged through the usual plugin system. This is strictly during the event with close oversight from DHS to prevent abuse.",
+    icon: Shield,
+  },
+  {
+    id: "fair-punishments",
+    title: "Fair Punishments",
+    content: "Certain punishments are unproportional to their respective crimes, especially with inflation over the years. Furthermore, some jail times are too low and can be raised, considering the jail mine and the new lack of jail time limit. We would also like to give more summary offenses higher punishments for repeat offenses.",
+    icon: Scale,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
