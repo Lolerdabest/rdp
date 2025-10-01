@@ -58,7 +58,7 @@ export const policies: Policy[] = [
   },
   {
     id: "financial-institutions",
-    title: "Financial Institutions (BILL IN REVIEW!)",
+    title: "Financial Institutions",
     content: `
       <div>
         <h4 class="font-bold text-md mb-2">i. Stricter Compliance</h4>

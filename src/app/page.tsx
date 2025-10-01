@@ -5,6 +5,7 @@ import { TableOfContents } from "@/components/sections/table-of-contents";
 import { Policies } from "@/components/sections/policies";
 import { GetInvolved } from "@/components/sections/get-involved";
 import { AnimatedSection } from "@/components/animated-section";
+import { CorePrinciples } from "@/components/sections/core-principles";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <AnimatedSection>
+          <CorePrinciples />
+        </AnimatedSection>
         <AnimatedSection>
           <TableOfContents />
         </AnimatedSection>
