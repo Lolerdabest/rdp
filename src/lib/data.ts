@@ -113,6 +113,18 @@ export const policies: Policy[] = [
     icon: Scale,
   },
   {
+    id: "improve-whistleblower-law",
+    title: "Improve Whistleblower Law",
+    content: "The current fine for revealing a whistleblower’s identity is a mere $2,000. Considering both inflation and the severity of the crime, this must be raised. Furthermore, the content of the law is lacking, too. For example, the current definition of whistleblower suppression only covers discrimination based on those who lawfully reveal corporate crimes. This must be expanded, and all whistleblower law must be revisited to ensure fair treatment.\nUPDATE: partially completed with the Whistleblower Anonymity Act, we will continue this work in the September-October term.",
+    icon: Shield,
+  },
+  {
+    id: "commission-transparency-guides",
+    title: "Commission Transparency Guides",
+    content: "We want to mandate standardized wiki or forums pages which list the pay for each position in the department. This will keep the department accountable as well as create some advertising for department positions.",
+    icon: Vote,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
