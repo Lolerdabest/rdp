@@ -1,21 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Vote, MessageSquare, Megaphone } from "lucide-react";
+import { MessageSquare, Megaphone } from "lucide-react";
+import { ShareButton } from "@/components/share-button";
 
 const actions = [
-  {
-    icon: Vote,
-    title: "Register to Vote",
-    description: "Make your voice heard in the next server election. Every vote counts towards a better Redmont.",
-    buttonText: "Register Now",
-    href: "#",
-  },
   {
     icon: MessageSquare,
     title: "Join the Discussion",
     description: "Our Discord server is the heart of our community. Share your ideas, debate policies, and get to know us.",
     buttonText: "Join Discord",
     href: "https://discord.gg",
+    variant: "default" as const,
   },
   {
     icon: Megaphone,
@@ -23,6 +18,7 @@ const actions = [
     description: "Help us reach more players. Share our platform with your friends and in-game networks.",
     buttonText: "Share Platform",
     href: "#",
+    variant: "outline" as const,
   },
 ];
 
@@ -39,7 +35,7 @@ export function GetInvolved() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 md:grid-cols-2 max-w-3xl mx-auto">
           {actions.map((action, index) => (
             <Card key={index} className="flex flex-col text-center items-center">
               <CardHeader>
@@ -50,11 +46,15 @@ export function GetInvolved() {
               </CardHeader>
               <CardContent className="flex flex-col flex-grow">
                 <p className="text-muted-foreground font-body flex-grow">{action.description}</p>
-                <Button asChild className="mt-6 w-full" variant={index === 1 ? "default" : "outline"}>
-                  <a href={action.href} target={action.href.startsWith('http') ? '_blank' : '_self'} rel="noopener noreferrer">
-                    {action.buttonText}
-                  </a>
-                </Button>
+                {action.title === "Spread the Word" ? (
+                  <ShareButton />
+                ) : (
+                  <Button asChild className="mt-6 w-full" variant={action.variant}>
+                    <a href={action.href} target={action.href.startsWith('http') ? '_blank' : '_self'} rel="noopener noreferrer">
+                      {action.buttonText}
+                    </a>
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}
