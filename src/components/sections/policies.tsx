@@ -5,7 +5,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { policies } from "@/lib/data";
-import { PolicySummary } from "@/components/policy-summary";
 import { Card } from "@/components/ui/card";
 
 export function Policies() {
@@ -36,9 +35,6 @@ export function Policies() {
                 <AccordionContent className="p-6 pt-0">
                     <div className="prose prose-base max-w-none text-foreground/80 font-body">
                       {policy.content}
-                    </div>
-                    <div className="mt-6">
-                        <PolicySummary policyText={policy.content} />
                     </div>
                 </AccordionContent>
                 </AccordionItem>
