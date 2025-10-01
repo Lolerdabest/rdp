@@ -89,6 +89,30 @@ export const policies: Policy[] = [
     icon: BookOpen,
   },
   {
+    id: "bankruptcy-reform",
+    title: "Bankruptcy Reform",
+    content: "There are regular instances where players are saddled with so much treasury debt that they can’t pay it off within a 100 lifetimes. Currently there is no way to start over with a clean slate and keep enjoying the server. The current bankruptcy legislation is outdated, cumbersome, complicated and only applies to companies. RBP wants to create a streamlined bankruptcy process which allows people to get rid of their crushing debt, while also protecting those who are owed the debt. This would be a process just like irl where the assets of the debtor are liquidated and distributed accordingly among creditors.",
+    icon: Scale,
+  },
+  {
+    id: "regulating-speculative-assets",
+    title: "Regulating Speculative Assets",
+    content: "Echo securities are in essence a product which allows you to buy a real life stock with Redmontian money. The regulation here is a balance between letting 2 individuals do deals however they please and protecting others from collateral damage. After all, 2 individuals who deal in echo securities and it goes wrong won’t create any other problems, but a bank that fails because of echo security losses is a big problem. See the Vanguard Collapse.\nWe therefore propose to mandate strict risk controls or a ban on these financial instruments for banks.",
+    icon: Banknote,
+  },
+  {
+    id: "promotion-of-competition",
+    title: "Promotion of Competition",
+    content: "RBP heavily encourages competition between businesses since the benefits are clear. Competition encourages businesses to innovate and streamline their processes. This results in better quality and prices of products and services.",
+    icon: Lightbulb,
+  },
+  {
+    id: "bankruptcy-is-a-tool",
+    title: "Bankruptcy is a Tool to Move on, not a Way to Defraud",
+    content: "A “trick” in bankruptcies is that you put all your debts in a new company, then declare bankruptcy on that company \"disappearing\" the debts leaving the creditors in the cold. This is obviously fraudulent but it is legally unclear if this practice is banned. We are planning to ban this practice along with any other bankruptcy misuse situations. Credit to xSyncx for the idea.",
+    icon: Scale,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
