@@ -16,7 +16,7 @@ export function Hero() {
           Redmont: For the Players.
         </h1>
         <p className="mt-6 max-w-2xl font-body text-lg leading-8 text-foreground/80 md:text-xl animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          Forging a new era of democracy and progress. Your voice, our mission.
+          Let the wave of prosperity flow through Redmont
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <Button asChild size="lg">
