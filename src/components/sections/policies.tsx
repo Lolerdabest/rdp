@@ -23,9 +23,9 @@ export function Policies() {
 
         <Accordion type="single" collapsible className="mt-12 mx-auto max-w-3xl space-y-4">
           {policies.map((policy) => (
-            <Card key={policy.id} className="overflow-hidden">
+            <Card key={policy.id} className="overflow-hidden transition-all duration-300">
                 <AccordionItem value={policy.id} className="border-b-0">
-                <AccordionTrigger className="p-6 text-lg font-headline font-semibold hover:no-underline data-[state=open]:bg-primary/5">
+                <AccordionTrigger className="p-6 text-lg font-headline font-semibold hover:no-underline transition-colors data-[state=open]:bg-primary/5">
                     <div className="flex items-center gap-4">
                     <div className="p-3 bg-primary/10 rounded-lg">
                         <policy.icon className="h-6 w-6 text-primary" />

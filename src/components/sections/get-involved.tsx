@@ -37,7 +37,7 @@ export function GetInvolved() {
 
         <div className="mt-12 grid gap-8 md:grid-cols-2 max-w-3xl mx-auto">
           {actions.map((action, index) => (
-            <Card key={index} className="flex flex-col text-center items-center">
+            <Card key={index} className="flex flex-col text-center items-center transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader>
                 <div className="p-4 bg-primary/10 rounded-full mx-auto">
                     <action.icon className="h-8 w-8 text-primary" />
