@@ -6,7 +6,6 @@ import {
 } from "@/components/ui/accordion";
 import { policies } from "@/lib/data";
 import { Card } from "@/components/ui/card";
-import { PolicySummary } from "@/components/policy-summary";
 
 export function Policies() {
   return (
@@ -39,7 +38,6 @@ export function Policies() {
                         className="prose prose-base max-w-none text-foreground/80 font-body"
                         dangerouslySetInnerHTML={{ __html: policy.content }}
                         />
-                        <PolicySummary policyText={policy.content} />
                     </div>
                 </AccordionContent>
                 </AccordionItem>
