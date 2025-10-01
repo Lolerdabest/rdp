@@ -1,11 +1,16 @@
-import { Sun } from "lucide-react";
+import Image from 'next/image';
 
 export function Logo() {
   return (
     <a href="#policies" aria-label="Scroll to Redmont Platform policies" className="flex items-center gap-2">
-      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-primary-foreground">
-        <Sun className="w-6 h-6" />
-      </div>
+      <Image
+        src="https://picsum.photos/seed/logo/40/40"
+        alt="Redmont Logo"
+        width={40}
+        height={40}
+        className="rounded-full"
+        data-ai-hint="logo"
+      />
       <span className="text-xl font-bold font-headline text-foreground">
         Redmont
       </span>

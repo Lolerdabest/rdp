@@ -10,7 +10,6 @@ import {
 
 const navLinks = [
   { href: "#policies", label: "Policies" },
-  { href: "#contact", label: "Contact" },
 ];
 
 export function Header() {
