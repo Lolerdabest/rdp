@@ -8,7 +8,7 @@ export function FloatingShapes() {
             height: '400px',
             top: '10%',
             left: '15%',
-            background: 'radial-gradient(circle, hsl(var(--primary) / 0.5), transparent 70%)',
+            background: 'radial-gradient(circle, hsl(var(--primary)), transparent 70%)',
           }} 
         />
         <div 
@@ -18,7 +18,7 @@ export function FloatingShapes() {
             height: '500px',
             top: '50%',
             left: '30%',
-            background: 'radial-gradient(circle, hsl(var(--accent) / 0.4), transparent 70%)',
+            background: 'radial-gradient(circle, hsl(var(--accent)), transparent 70%)',
           }} 
         />
         <div 
@@ -28,7 +28,7 @@ export function FloatingShapes() {
             height: '350px',
             top: '25%',
             left: '70%',
-            background: 'radial-gradient(circle, hsl(var(--secondary) / 0.6), transparent 70%)',
+            background: 'radial-gradient(circle, hsl(210 20% 80%), transparent 70%)',
           }} 
         />
          <div 
@@ -39,7 +39,7 @@ export function FloatingShapes() {
             bottom: '5%',
             right: '10%',
             animationDuration: '35s',
-            background: 'radial-gradient(circle, hsl(var(--primary) / 0.3), transparent 70%)',
+            background: 'radial-gradient(circle, hsl(var(--primary) / 0.7), transparent 70%)',
           }} 
         />
       </div>

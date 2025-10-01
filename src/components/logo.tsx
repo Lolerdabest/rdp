@@ -4,7 +4,7 @@ export function Logo() {
   return (
     <a href="#" aria-label="Back to homepage" className="flex items-center gap-3">
       <Image
-        src="https://i.ibb.co/VY90t4J4/image-25.png"
+        src="https://i.ibb.co/zX5YQ4N/redmont-logo-pol.png"
         alt="Redmont Logo"
         width={40}
         height={40}
