@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import Image from "next/image";
+import { FloatingShapes } from "@/components/floating-shapes";
 
 export function Hero() {
   return (
@@ -8,8 +8,8 @@ export function Hero() {
       id="home"
       className="relative flex h-[calc(100vh-4rem)] w-full items-center justify-center overflow-hidden"
     >
-       <div className="absolute inset-0 z-0 bg-background">
-         <div className="absolute inset-0 z-0 bg-gradient-to-r from-primary/20 via-accent/20 to-primary/20 animate-gradient-x opacity-30" />
+      <div className="absolute inset-0 z-0 bg-background">
+        <FloatingShapes />
       </div>
       <div className="relative z-10 flex flex-col items-center text-center p-4 max-w-4xl mx-auto">
         <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-foreground sm:text-6xl md:text-7xl animate-fade-in-up">

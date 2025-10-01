@@ -74,4 +74,36 @@
       transform: translateY(0);
     }
   }
+
+  .floating-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+    }
+    25% {
+      transform: translateY(-20px) translateX(30px);
+    }
+    50% {
+      transform: translateY(20px) translateX(-30px);
+    }
+    75% {
+      transform: translateY(-30px) translateX(20px);
+    }
+  }
+
+  .animate-float-1 {
+    animation: float 25s ease-in-out infinite;
+  }
+  .animate-float-2 {
+    animation: float 20s ease-in-out infinite reverse;
+  }
+  .animate-float-3 {
+    animation: float 30s ease-in-out infinite;
+  }
 }
