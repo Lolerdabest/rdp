@@ -23,9 +23,10 @@ export function Footer() {
     <footer className="bg-secondary">
       <div className="container mx-auto px-4 py-8 md:px-6">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Redmont Platform. All rights reserved.
-          </p>
+          <div className="text-sm text-muted-foreground text-center md:text-left">
+            <p>© {new Date().getFullYear()} Redmont Platform. All rights reserved.</p>
+            <p>Established 2024</p>
+          </div>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (
               <a
