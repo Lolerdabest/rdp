@@ -6,7 +6,7 @@ export function Logo() {
       <div className="relative h-10 w-10">
         <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent animate-pulse-slow"></div>
         <Image
-          src="https://i.ibb.co/VY90t4J4/image-25.png"
+          src="https://i.ibb.co/VY90t4J/image-25.png"
           alt="Redmont Logo"
           width={40}
           height={40}
