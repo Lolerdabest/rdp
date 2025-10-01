@@ -27,6 +27,12 @@ export const policies: Policy[] = [
     icon: Scale,
   },
   {
+    id: "classified-materials-and-freedom-of-information",
+    title: "Classified Materials and Freedom of Information",
+    content: "The previous law (Classification Act) had several big flaws that made it almost unusable. It was also a major liability on the accountability side. For example there was a provision where the executive could deny revealing a document to Congress even though Congress is supposed to oversee the executive. The RBP helped create the Classified Materials Act which fixes many of the shortcomings in the Classification Act. Freedom of Information requests are now better regulated, classified information must be put onto a list so nobody “forgets” about it and many other provisions which were desperately needed. A big thank you Gwiis for the initial draft!",
+    icon: BookOpen,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
