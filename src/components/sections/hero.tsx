@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import { FloatingShapes } from "@/components/floating-shapes";
 
 export function Hero() {
   return (
@@ -7,6 +8,7 @@ export function Hero() {
       id="home"
       className="relative flex h-screen w-full items-center justify-center overflow-hidden"
     >
+      <FloatingShapes />
       <div className="relative z-10 flex flex-col items-center text-center p-4 max-w-4xl mx-auto">
         <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-white sm:text-6xl md:text-7xl animate-fade-in-up [text-shadow:_0_2px_4px_rgb(0_0_0_/_40%)]">
           Redmont: For the Players.
