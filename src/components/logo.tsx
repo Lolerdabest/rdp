@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function Logo() {
   return (
-    <a href="#" aria-label="Back to homepage" className="flex items-center gap-3">
+    <a href="#" aria-label="Back to homepage" className="flex items-center gap-2">
       <Image
         src="https://i.ibb.co/zX5YQ4N/redmont-logo-pol.png"
         alt="Redmont Logo"
