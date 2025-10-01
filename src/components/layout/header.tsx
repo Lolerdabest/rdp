@@ -29,7 +29,7 @@ export function Header() {
             </a>
           ))}
           <Button asChild>
-            <a href="https://discord.gg" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/xy8MsApvD4" target="_blank" rel="noopener noreferrer">
               Join our Discord
             </a>
           </Button>
@@ -59,7 +59,7 @@ export function Header() {
                   </a>
                 ))}
                  <Button asChild size="lg" className="mt-4">
-                    <a href="https://discord.gg" target="_blank" rel="noopener noreferrer">
+                    <a href="https://discord.gg/xy8MsApvD4" target="_blank" rel="noopener noreferrer">
                         Join our Discord
                     </a>
                 </Button>

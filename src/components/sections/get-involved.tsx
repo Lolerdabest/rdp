@@ -9,7 +9,7 @@ const actions = [
     title: "Join the Discussion",
     description: "Our Discord server is the heart of our community. Share your ideas, debate policies, and get to know us.",
     buttonText: "Join Discord",
-    href: "https://discord.gg",
+    href: "https://discord.gg/xy8MsApvD4",
     variant: "default" as const,
   },
   {
