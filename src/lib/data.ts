@@ -45,6 +45,18 @@ export const policies: Policy[] = [
     icon: Users,
   },
   {
+    id: "responsible-taxation",
+    title: "Responsible Taxation",
+    content: "Taxes should only exist to pay for something, or to incentivize something. In addition, we should seek out less invasive forms of producing government revenue. Nobody wants to fill out tax returns.",
+    icon: Banknote,
+  },
+  {
+    id: "inactive-sole-proprietorships",
+    title: "Inactive Sole Proprietorships",
+    content: "Currently there are dozens if not hundreds of sole proprietorships which are completely inactive. These balances should be pruned and the names should be unclaimed so other people can use them.",
+    icon: Users,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
