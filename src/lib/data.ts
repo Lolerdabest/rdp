@@ -39,6 +39,12 @@ export const policies: Policy[] = [
     icon: Building,
   },
   {
+    id: "helping-new-players-get-loans",
+    title: "Helping New Players get Loans",
+    content: "Love them or hate them, banks play a key part in our society. Both irl and ingame. They are tools that can be beneficial if properly used. For example they make it easier to buy a plot by allowing you to pay off the price of a plot over time by lending money. New players use them to get some starting cash for their businesses.\nBanks often have millions sitting there not being able to be lent out.. That is a waste of economic potential. Sometimes a loan is too expensive for the customer or too risky for the bank. That is where the government should come in.\nThe RBP proposes that the government sets up a program to cover the interest(within reason), essentially giving the player an interest free loan at extremely low cost to the government. The loan could even be guaranteed by the government with the proper safeguards for abuse of course.\nIt would allow players to get tractors and plots much faster in comparison to grinding day after day for money.\nThis way the same budget can have a much bigger impact, the finance sector which was decimated by the crisis, is stimulated in a responsible way and it would allow banks to pay interest to their depositors. It is a win situation for tax payers, a win situation for banks and a win situation for the new players.",
+    icon: Users,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
