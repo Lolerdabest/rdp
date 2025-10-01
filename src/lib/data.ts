@@ -1,4 +1,4 @@
-import { Users, Shield, Vote, Lightbulb, Banknote, Palette } from "lucide-react";
+import { Users, Shield, Vote, Lightbulb, Banknote, Palette, Landmark, BookOpen, Scale } from "lucide-react";
 
 export type Policy = {
   id: string;
@@ -8,6 +8,24 @@ export type Policy = {
 };
 
 export const policies: Policy[] = [
+  {
+    id: "regulating-foreign-exchange",
+    title: "Regulating Foreign Exchange",
+    content: "The RBP has passed a bill (Foreign Exchange Act) which bans banks from using assets on unrecognized nations (aka other servers). This strikes a nice balance between the normal player still being able to do these deals at their own risk and bank depositors being protected from possible losses these assets can create.",
+    icon: Landmark,
+  },
+  {
+    id: "frb-overhaul",
+    title: "Complete Overhaul of the Federal Reserve Bank",
+    content: "The Federal Reserve Bank or FRB for short is our central bank which manages our economy. They are our economic steward doing things like setting reserve requirements for banks, monitoring the market and much more.\nThe flaws in the FRB were apparent. Bad management, inactivity and horrible legislation paralyzed the FRB. The RBP has tried for months to reform this institution and after 3 draft rewrites we finally did it! See the Federal Reserve Act!\nThis Act completely overhauls the FRB, allowing for a more independent central bank with better oversight mechanisms and clear powers.\nA small sidenote to the signature statement of the president: WPR explicitly didn’t want a supermajority in the House and Senate for appointments because it “would be too hard to reach”. The higher vote requirements were to eliminate the “political motivation” former president Kaiserin_ accused Speaker Omegabiebel of. As a result of this complaint, the appointment vote requirement was lowered to a majority in the House and a supermajority in the Senate. All the appointment votes passed with such a margin the rejected vote requirement would have been reached\nAll these points lead us to conclude that this was just a baseless allegation made because of pure political motivation instead of good governance, as they explicitly rejected the safety mechanic in place.",
+    icon: Banknote,
+  },
+  {
+    id: "corporate-law-reform",
+    title: "Complete Reform of Corporate Law",
+    content: "The previous corporate law, the Business Structuring Act was vague legislation that required a lot of unnecessary paperwork where default would apply 99% of the time. Additionally it was unclear in several areas. That is why RBP has passed a bill (Legal Entity Act) to fix these issues and more.\nThe Legal Entity Act sets out a clear process to create LLCs and Corporations with enough defaults that boilerplate isn’t necessary. It also mandates a share register so there isn’t any uncertainty as to who owns a legal entity, something that used to be a big problem in the past. This greatly increases legal certainty and reasonable transparency together with the company docket, which is a thread where all the verdicts, amendments to the company Certificate of Incorporation are posted",
+    icon: Scale,
+  },
   {
     id: "civil-liberties",
     title: "Civil Liberties",
