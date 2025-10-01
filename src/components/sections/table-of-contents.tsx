@@ -50,8 +50,21 @@ const tocItems = [
     },
     {
       title: "Plots and Housing",
-      subItems: ["No Punitive Action on Inactivity Evictions"],
+      subItems: [
+        "No Punitive Action on Inactivity Evictions",
+        "Plot Prices",
+        "Creation of Small Plots",
+        "Convert the Fairgrounds into Plots",
+    ],
     },
+    {
+        title: "Criminal and Security Policy",
+        subItems: [
+            "Clarified Degrees of Culpability",
+            "Licensed Security Companies",
+            "Fair Punishments",
+        ],
+    }
   ];
 
   const renderList = (items: (string | { title: string; subItems: any[] })[]) => {
