@@ -1,4 +1,4 @@
-import { Users, Shield, Vote, Lightbulb, Banknote, Palette, Landmark, BookOpen, Scale } from "lucide-react";
+import { Users, Shield, Vote, Lightbulb, Banknote, Palette, Landmark, BookOpen, Scale, Building } from "lucide-react";
 
 export type Policy = {
   id: string;
@@ -31,6 +31,12 @@ export const policies: Policy[] = [
     title: "Classified Materials and Freedom of Information",
     content: "The previous law (Classification Act) had several big flaws that made it almost unusable. It was also a major liability on the accountability side. For example there was a provision where the executive could deny revealing a document to Congress even though Congress is supposed to oversee the executive. The RBP helped create the Classified Materials Act which fixes many of the shortcomings in the Classification Act. Freedom of Information requests are now better regulated, classified information must be put onto a list so nobody “forgets” about it and many other provisions which were desperately needed. A big thank you Gwiis for the initial draft!",
     icon: BookOpen,
+  },
+  {
+    id: "apartment-registry",
+    title: "Apartment Registry",
+    content: "The apartment registry would just be a list of apartments and other rentable buildings since the command to find rentable regions is so user unfriendly. See it as the website you use when finding a home irl.\nIt’s something we’ve been calling for a long time. LfR, the predecessor of the RBP, even passed a resolution calling for an apartment registry. Unfortunately this went completely ignored by the 1950 administration. We’ve asked the secretary of the DOE (AsexualDinosaur) in the Kaiserin administration for this but have yet to see any progress at all.\nUPDATE (23/08): Zero progress from the Kaiserin Administration\nUPDATE (3/09): Zero progress from the current DOE secretary or the",
+    icon: Building,
   },
   {
     id: "civil-liberties",
