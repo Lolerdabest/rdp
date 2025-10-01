@@ -57,6 +57,21 @@ export const policies: Policy[] = [
     icon: Users,
   },
   {
+    id: "financial-institutions",
+    title: "Financial Institutions (BILL IN REVIEW!)",
+    content: `
+      <div>
+        <h4 class="font-bold text-md mb-2">i. Stricter Compliance</h4>
+        <p class="mb-4">The collapse of Vanguard and the seizure of several other financial institutions have proven that strict compliance and a strong regulator are necessary. The current legislation has proven to be a serious problem. We want to make it easier for the DOC to request critical information such as accounting books, investment documents and other key documents.</p>
+        <h4 class="font-bold text-md mb-2">ii. Mandatory Public Financial Statements for Banks</h4>
+        <p class="mb-4">Financial statements such as a balance sheet, income statement and a cashflow statement give information on the financial health of a company. For those who don’t know what these documents are: A balance sheet lists the assets and debts of a company. The income statement gives an overview of the company's revenue, expenses etc. The cashflow statement is used to know how much cash comes in and goes out of the company. Publicly traded companies on the Exchange already have to provide these documents so investors can make an educated decision of what to do with the share. RBP wants to extend this to banks. These documents are made for the DOC anyways, and they don’t reveal any confidential information while still making sure no crazy moves are being pulled behind the scenes.</p>
+        <h4 class="font-bold text-md mb-2">iii. Mandatory Registration of Financial Institutions</h4>
+        <p>Currently a bank is not mandated to be registered. Only if they want a tax exemption on their in-game firm. This has resulted in some financial institutions such as The Exchange being able to do “banky things” such as lending out deposits and investing with deposits without the necessary regulatory oversight. We want to mandate the registration of Banks to make sure these are all regulated properly. This doesn’t have to be a drawn out process like irl.</p>
+      </div>
+    `,
+    icon: Landmark,
+  },
+  {
     id: "civil-liberties",
     title: "Civil Liberties",
     content: "Others often carelessly trample over civil liberties in their efforts for reform. However, here at the Redmont Beach Party, civil liberties are at the front of our minds when making decisions. First and foremost, we vow to protect the freedoms of conscience, expression, speech, press, and assembly; as well as the rights to security, liberty, privacy, life, property, and self defense.",
@@ -65,7 +80,7 @@ export const policies: Policy[] = [
   {
     id: "democratic-governance",
     title: "Democratic Governance",
-    content: "A strong, stable democracy is built on the enduring principles of accountability, transparency, and citizen participation. The Redmont Beach Party is committed to protecting the integrity of free and fair elections, upholding the rule of law, and ensuring that the government remains responsive to the people it serves.",
+    content: "A strong, stable democracy is built on the enduring principles of accountability, transparency, and citizen participation. The Redmont Beach Party is committed to protecting the integrity of free and fair elections, upholding the rule of law, and ensuring that the government remains responsive to the apeople it serves.",
     icon: Vote,
   },
   {
