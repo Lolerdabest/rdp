@@ -4,7 +4,7 @@ export function Logo() {
   return (
     <a href="#policies" aria-label="Scroll to Redmont Platform policies" className="flex items-center gap-2">
       <Image
-        src="https://picsum.photos/seed/logo/40/40"
+        src="/logo.png"
         alt="Redmont Logo"
         width={40}
         height={40}
