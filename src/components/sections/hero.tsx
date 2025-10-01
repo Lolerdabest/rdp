@@ -21,7 +21,7 @@ export function Hero() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           <Button asChild size="lg">
             <a href="#policies">
-              Explore Our Platform
+              View policies
               <ChevronRight className="w-5 h-5 ml-2" />
             </a>
           </Button>
