@@ -24,7 +24,7 @@ const actions = [
 
 export function GetInvolved() {
   return (
-    <section id="get-involved" className="w-full py-20 md:py-28 lg:py-32 bg-background">
+    <section id="get-involved" className="w-full py-20 md:py-28 lg:py-32 bg-background/90">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -37,7 +37,7 @@ export function GetInvolved() {
 
         <div className="mt-12 grid gap-8 md:grid-cols-2 max-w-3xl mx-auto">
           {actions.map((action, index) => (
-            <Card key={index} className="flex flex-col text-center items-center transition-all duration-300 hover:scale-105 hover:shadow-xl">
+            <Card key={index} className="flex flex-col text-center items-center transition-all duration-300 hover:scale-105 hover:shadow-xl bg-card/80 backdrop-blur-sm">
               <CardHeader>
                 <div className="p-4 bg-primary/10 rounded-full mx-auto">
                     <action.icon className="h-8 w-8 text-primary" />

@@ -9,7 +9,7 @@ import { Card } from "@/components/ui/card";
 
 export function Policies() {
   return (
-    <section id="policies" className="w-full py-20 md:py-28 lg:py-32 bg-secondary/50">
+    <section id="policies" className="w-full py-20 md:py-28 lg:py-32 bg-background/90">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -22,7 +22,7 @@ export function Policies() {
 
         <Accordion type="single" collapsible className="mt-12 mx-auto max-w-3xl space-y-4">
           {policies.map((policy) => (
-            <Card key={policy.id} className="overflow-hidden transition-all duration-300">
+            <Card key={policy.id} className="overflow-hidden transition-all duration-300 bg-card/80 backdrop-blur-sm">
                 <AccordionItem value={policy.id} className="border-b-0">
                 <AccordionTrigger className="p-6 text-lg font-headline font-semibold hover:no-underline transition-colors data-[state=open]:bg-primary/5">
                     <div className="flex items-center gap-4">

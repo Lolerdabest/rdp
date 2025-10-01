@@ -105,7 +105,7 @@ const tocItems = [
 
 export function TableOfContents() {
   return (
-    <section id="table-of-contents" className="w-full py-20 md:py-28 lg:py-32 bg-background">
+    <section id="table-of-contents" className="w-full py-20 md:py-28 lg:py-32 bg-background/90">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl">
           <div className="text-center mb-12">
@@ -116,7 +116,7 @@ export function TableOfContents() {
               An overview of our party's platform and priorities.
             </p>
           </div>
-          <Card className="w-full">
+          <Card className="w-full bg-card/80 backdrop-blur-sm">
             <CardHeader>
                 <div className="flex items-center gap-4">
                     <div className="p-3 bg-primary/10 rounded-lg">
