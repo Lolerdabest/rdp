@@ -35,6 +35,9 @@ export function Policies() {
           <p className="mt-4 font-body text-lg text-muted-foreground">
             September 2025
           </p>
+          <p className="mt-2 font-body text-base text-muted-foreground">
+            The sub title policys
+          </p>
         </div>
 
         <div className="mx-auto max-w-3xl mt-8 flex justify-end">
