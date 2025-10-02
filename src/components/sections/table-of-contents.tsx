@@ -110,7 +110,7 @@ export function TableOfContents() {
         <div className="mx-auto max-w-3xl">
           <div className="text-center mb-12">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Table of Contents
+              Our Successes this Last Term
             </h2>
             <p className="mt-4 font-body text-lg text-muted-foreground">
               An overview of our party's platform and priorities.
