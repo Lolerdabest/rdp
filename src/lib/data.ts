@@ -29,7 +29,7 @@ export const policies: Policy[] = [
   {
     id: "classified-materials-and-freedom-of-information",
     title: "Classified Materials and Freedom of Information",
-    content: "The previous law <a href='https://www.democracycraft.net/threads/classification-act.4823/' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>(Classification Act)</a> had several big flaws that made it almost unusable. It was also a major liability on the accountability side. For example there was a provision where the executive could deny revealing a document to Congress even though Congress is supposed to oversee the executive. The RBP helped create the Classified Materials Act which fixes many of the shortcomings in the Classification Act. Freedom of Information requests are now better regulated, classified information must be put onto a list so nobody “forgets” about it and many other provisions which were desperately needed. A big thank you Gwiis for the initial draft!",
+    content: "The previous law <a href='https://www.democracycraft.net/threads/classification-act.4823/' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>(Classification Act)</a> had several big flaws that made it almost unusable. It was also a major liability on the accountability side. For example there was a provision where the executive could deny revealing a document to Congress even though Congress is supposed to oversee the executive. The RBP helped create the <a href='https://www.democracycraft.net/threads/classified-materials-act.29231/' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>Classified Materials Act</a> which fixes many of the shortcomings in the Classification Act. Freedom of Information requests are now better regulated, classified information must be put onto a list so nobody “forgets” about it and many other provisions which were desperately needed. A big thank you Gwiis for the initial draft!",
     icon: BookOpen,
   },
   {
@@ -200,3 +200,4 @@ export const policies: Policy[] = [
 
     
     
+
