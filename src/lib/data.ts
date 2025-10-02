@@ -57,6 +57,13 @@ export const policies: Policy[] = [
     icon: Users,
   },
   {
+    id: "economic-financial-reform-heading",
+    title: "Economic & Financial Reform",
+    content: "",
+    icon: Banknote,
+    isHeading: true,
+  },
+  {
     id: "responsible-taxation",
     title: "Responsible Taxation",
     content: "Taxes should only exist to pay for something, or to incentivize something. In addition, we should seek out less invasive forms of producing government revenue. Nobody wants to fill out tax returns.",
