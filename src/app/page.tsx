@@ -6,6 +6,7 @@ import { Policies } from "@/components/sections/policies";
 import { GetInvolved } from "@/components/sections/get-involved";
 import { AnimatedSection } from "@/components/animated-section";
 import { CorePrinciples } from "@/components/sections/core-principles";
+import { OurSuccesses } from "@/components/sections/our-successes";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
         <Hero />
         <AnimatedSection>
           <CorePrinciples />
+        </AnimatedSection>
+        <AnimatedSection>
+          <OurSuccesses />
         </AnimatedSection>
         <AnimatedSection>
           <TableOfContents />
