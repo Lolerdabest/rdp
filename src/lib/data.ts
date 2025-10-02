@@ -151,6 +151,13 @@ export const policies: Policy[] = [
     icon: Vote,
   },
   {
+    id: "plots-and-housing-heading",
+    title: "Plots and Housing",
+    content: "",
+    icon: Home,
+    isHeading: true,
+  },
+  {
     id: "no-punitive-action-on-inactivity-evictions",
     title: "No Punitive Action on Inactivity Evictions",
     content: "We are extremely worried by WPRs plan to take punitive actions on players who have become inactive. They plan to issue fines to players who get evicted multiple times, and cut the money players get when their evicted plot is up for auction by half.\nOften players get inactive for a number of reasons, some of which are real life personal issues. You shouldn’t get punished just because you couldn’t play this month. These are punitive actions that would cost players hundreds of thousands of dollars each.\nImagine this: You bought a plot after a lot of saving and work. It costs you about 50k. You’ve built a house, made some chestshop, life is good. Then for some personal reason you can’t reach the 6 hour playtime requirement for some reason. Sure extensions could help but you can’t extend the eviction report forever. You get evicted for inactivity, but instead of getting your 50k back at auction, you get 25k. This means you get fined 25 THOUSAND dollars just because you couldn’t join.",
