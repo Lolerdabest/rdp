@@ -37,6 +37,12 @@ export const successes: Policy[] = [
 
 export const policies: Policy[] = [
   {
+    id: "new-players",
+    title: "New Players",
+    content: "",
+    icon: Users
+  },
+  {
     id: "apartment-registry",
     title: "Apartment Registry",
     content: "The apartment registry would just be a list of apartments and other rentable buildings since the command to find rentable regions is so user unfriendly. See it as the website you use when finding a home irl.\nIt’s something we’ve been calling for a long time. LfR, the predecessor of the RBP, even passed a resolution calling for an apartment registry. Unfortunately this went completely ignored by the 1950 administration. We’ve asked the secretary of the DOE (AsexualDinosaur) in the Kaiserin administration for this but have yet to see any progress at all.\nUPDATE (23/08): Zero progress from the Kaiserin Administration\nUPDATE (3/09): Zero progress from the current DOE secretary or the Juniperfig Administration",

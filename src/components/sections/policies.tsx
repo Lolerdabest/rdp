@@ -51,16 +51,19 @@ export function Policies() {
           onValueChange={setOpenItems}
         >
           {policies.map((policy) => (
-            <Card key={policy.id} className="overflow-hidden transition-all duration-300 bg-card/80 backdrop-blur-sm hover:shadow-xl hover:scale-[1.02]">
-                <AccordionItem value={policy.id} className="border-b-0">
-                <AccordionTrigger className="p-6 text-lg font-headline font-semibold hover:no-underline transition-colors data-[state=open]:bg-primary/5">
-                    <div className="flex items-center gap-4">
+             <Card key={policy.id} className="overflow-hidden transition-all duration-300 bg-card/80 backdrop-blur-sm hover:shadow-xl hover:scale-[1.02]">
+              <AccordionItem value={policy.id} className="border-b-0">
+              <AccordionTrigger 
+                className={`p-6 text-lg font-headline font-semibold hover:no-underline transition-colors data-[state=open]:bg-primary/5 ${!policy.content && 'pointer-events-none'}`}
+              >
+                  <div className="flex items-center gap-4">
                     <div className="p-3 bg-primary/10 rounded-lg">
                         <policy.icon className="h-6 w-6 text-primary" />
                     </div>
                     {policy.title}
-                    </div>
-                </AccordionTrigger>
+                  </div>
+              </AccordionTrigger>
+              {policy.content && (
                 <AccordionContent className="p-6 pt-0">
                     <div 
                       className="prose prose-base max-w-none text-foreground/80 font-body prose-p:leading-relaxed"
@@ -68,8 +71,9 @@ export function Policies() {
                       dangerouslySetInnerHTML={{ __html: policy.content }}
                     />
                 </AccordionContent>
-                </AccordionItem>
-            </Card>
+              )}
+              </AccordionItem>
+          </Card>
           ))}
         </Accordion>
       </div>
