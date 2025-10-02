@@ -3,7 +3,7 @@ import { ListOrdered } from "lucide-react";
 
 const tocItems = [
     {
-      title: "Success of This Last Term",
+      title: "Our Successes this Last Term",
       subItems: [
         "Regulating Foreign Exchange",
         "Complete Overhaul of the Federal Reserve Bank",
