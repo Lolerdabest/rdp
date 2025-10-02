@@ -11,7 +11,7 @@ export const policies: Policy[] = [
   {
     id: "regulating-foreign-exchange",
     title: "Regulating Foreign Exchange",
-    content: "The RBP has passed a bill (Foreign Exchange Act) which bans banks from using assets on unrecognized nations (aka other servers). This strikes a nice balance between the normal player still being able to do these deals at their own risk and bank depositors being protected from possible losses these assets can create.",
+    content: "The RBP has passed a bill <a href='https://www.democracycraft.net/threads/criminal-code-act.26344/#post-105554' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>(Foreign Exchange Act)</a> which bans banks from using assets on unrecognized nations (aka other servers). This strikes a nice balance between the normal player still being able to do these deals at their own risk and bank depositors being protected from possible losses these assets can create.",
     icon: Landmark,
   },
   {
