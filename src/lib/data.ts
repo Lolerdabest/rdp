@@ -182,6 +182,13 @@ export const policies: Policy[] = [
     icon: Home,
   },
   {
+    id: "criminal-and-security-policy-heading",
+    title: "Criminal and Security Policy",
+    content: "",
+    icon: Shield,
+    isHeading: true,
+  },
+  {
     id: "clarified-degrees-of-culpability",
     title: "Clarified Degrees of Culpability",
     content: "In order to have consistency and clarity in the law, we seek to codify definitions for the four degrees of culpability, including purposely, knowingly, recklessly, and negligently.",
