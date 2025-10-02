@@ -44,38 +44,49 @@ export function Policies() {
           </Button>
         </div>
 
-        <Accordion 
-          type="multiple" 
-          className="mt-4 mx-auto max-w-3xl space-y-4"
-          value={openItems}
-          onValueChange={setOpenItems}
-        >
-          {policies.map((policy) => (
-             <Card key={policy.id} className="overflow-hidden transition-all duration-300 bg-card/80 backdrop-blur-sm hover:shadow-xl hover:scale-[1.02]">
-              <AccordionItem value={policy.id} className="border-b-0">
-              <AccordionTrigger 
-                className={`p-6 text-lg font-headline font-semibold hover:no-underline transition-colors data-[state=open]:bg-primary/5 ${!policy.content && 'pointer-events-none'}`}
-              >
-                  <div className="flex items-center gap-4">
-                    <div className="p-3 bg-primary/10 rounded-lg">
-                        <policy.icon className="h-6 w-6 text-primary" />
-                    </div>
+        <div className="mx-auto max-w-3xl mt-4 space-y-4">
+          <Accordion 
+            type="multiple" 
+            className="w-full space-y-4"
+            value={openItems}
+            onValueChange={setOpenItems}
+          >
+            {policies.map((policy) => {
+              if (policy.isHeading) {
+                return (
+                  <h3 key={policy.id} className="font-headline text-2xl font-bold tracking-tight text-foreground text-left mt-8 pt-4 border-t">
                     {policy.title}
-                  </div>
-              </AccordionTrigger>
-              {policy.content && (
-                <AccordionContent className="p-6 pt-0">
-                    <div 
-                      className="prose prose-base max-w-none text-foreground/80 font-body prose-p:leading-relaxed"
-                      style={{ padding: '0 1rem', lineHeight: '1.75', textAlign: 'justify' }}
-                      dangerouslySetInnerHTML={{ __html: policy.content }}
-                    />
-                </AccordionContent>
-              )}
-              </AccordionItem>
-          </Card>
-          ))}
-        </Accordion>
+                  </h3>
+                )
+              }
+              return (
+                <Card key={policy.id} className="overflow-hidden transition-all duration-300 bg-card/80 backdrop-blur-sm hover:shadow-xl hover:scale-[1.02]">
+                  <AccordionItem value={policy.id} className="border-b-0">
+                  <AccordionTrigger 
+                    className={`p-6 text-lg font-headline font-semibold hover:no-underline transition-colors data-[state=open]:bg-primary/5 ${!policy.content && 'pointer-events-none'}`}
+                  >
+                      <div className="flex items-center gap-4">
+                        <div className="p-3 bg-primary/10 rounded-lg">
+                            <policy.icon className="h-6 w-6 text-primary" />
+                        </div>
+                        {policy.title}
+                      </div>
+                  </AccordionTrigger>
+                  {policy.content && (
+                    <AccordionContent className="p-6 pt-0">
+                        <div 
+                          className="prose prose-base max-w-none text-foreground/80 font-body prose-p:leading-relaxed"
+                          style={{ padding: '0 1rem', lineHeight: '1.75', textAlign: 'justify' }}
+                          dangerouslySetInnerHTML={{ __html: policy.content }}
+                        />
+                    </AccordionContent>
+                  )}
+                  </AccordionItem>
+              </Card>
+              )
+            })}
+          </Accordion>
+        </div>
       </div>
     </section>
   );

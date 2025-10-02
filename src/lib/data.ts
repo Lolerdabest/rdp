@@ -5,6 +5,7 @@ export type Policy = {
   title: string;
   content: string;
   icon: React.ComponentType<{ className?: string }>;
+  isHeading?: boolean;
 };
 
 export const successes: Policy[] = [
@@ -37,10 +38,11 @@ export const successes: Policy[] = [
 
 export const policies: Policy[] = [
   {
-    id: "new-players",
+    id: "new-players-heading",
     title: "New Players",
     content: "",
-    icon: Users
+    icon: Users,
+    isHeading: true,
   },
   {
     id: "apartment-registry",
