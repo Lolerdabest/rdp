@@ -115,7 +115,7 @@ export const policies: Policy[] = [
   {
     id: "improve-whistleblower-law",
     title: "Improve Whistleblower Law",
-    content: "The current fine for revealing a whistleblower’s identity is a mere $2,000. Considering both inflation and the severity of the crime, this must be raised. Furthermore, the content of the law is lacking, too. For example, the current definition of whistleblower suppression only covers discrimination based on those who lawfully reveal corporate crimes. This must be expanded, and all whistleblower law must be revisited to ensure fair treatment.\nUPDATE: partially completed with the Whistleblower Anonymity Act, we will continue this work in the September-October term.",
+    content: "The current fine for revealing a whistleblower’s identity is a mere $2,000. Considering both inflation and the severity of the crime, this must be raised. Furthermore, the content of the law is lacking, too. For example, the current definition of whistleblower suppression only covers discrimination based on those who lawfully reveal corporate crimes. This must be expanded, and all whistleblower law must be revisited to ensure fair treatment.\nUPDATE: partially completed with the <a href='https://www.democracycraft.net/threads/whistleblower-anonymity-act.31331/' target='_blank' rel='noopener noreferrer' class='text-primary hover:underline'>Whistleblower Anonymity Act</a>, we will continue this work in the September-October term.",
     icon: Shield,
   },
   {
@@ -201,3 +201,4 @@ export const policies: Policy[] = [
     
     
 
+    
