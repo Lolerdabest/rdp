@@ -33,12 +33,10 @@ export function Policies() {
                     </div>
                 </AccordionTrigger>
                 <AccordionContent className="p-6 pt-0">
-                    <div className="space-y-6">
-                        <div 
-                        className="prose prose-base max-w-none text-foreground/80 font-body"
-                        dangerouslySetInnerHTML={{ __html: policy.content }}
-                        />
-                    </div>
+                    <div 
+                    className="prose prose-base max-w-none text-foreground/80 font-body prose-p:leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: policy.content }}
+                    />
                 </AccordionContent>
                 </AccordionItem>
             </Card>
